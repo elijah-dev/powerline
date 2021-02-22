@@ -1,0 +1,34 @@
+{
+	"segment_data": {
+		"mode": {
+			"args": {
+				"override": {
+					"insert": "I",
+					"default": "N",
+					"visual": "V"
+				}
+			}
+		},
+		"hostname": {
+			"args": {
+				"only_if_ssh": true
+			}
+		},
+		"user": {
+			"args": {
+				"hide_user": "elijah"
+			}
+		},
+		"cwd": {
+			"args": {
+				"dir_shorten_len": 2,
+				"use_path_separator": true
+			}
+		},
+		"branch": {
+			"args": {
+				"status_colors": true
+			}
+		}
+	}
+}
